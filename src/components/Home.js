@@ -1,4 +1,4 @@
-import { Grid, Typography } from '@material-ui/core';
+import { Grid,Card, CardContent, Typography } from '@material-ui/core';
 import React from 'react';
 import '../App.css';
 import Amazon from '../assets/amazon.png';
@@ -21,43 +21,101 @@ export default function LandingPage(){
         <img src ={Amazon} className="img" alt="No Preview"/>
         <Typography variant="h4" className="home-heading">Our Web Services</Typography>
         <Grid container spacing={3} >
-        <Grid item xs={12} sm={2}>
-        <img src ={AWS1} className="img" alt="No Preview"/>
+        <Grid item xs={12} sm={4}>
+        <Card>
+        <CardContent>
+        <img src ={AWS1} className="item" alt="No Preview"/>
+        <Typography className="item-title" variant="h5" color="textSecondary" component="p">Amazon EC2</Typography>
+      </CardContent>
+      </Card>
         </Grid>
-        <Grid item xs={12} sm={2}>
-        <img src ={AWS2} className="img" alt="No Preview"/>
+        <Grid item xs={12} sm={4}>
+        <Card>
+        <CardContent>
+        <img src ={AWS2} className="item" alt="No Preview"/>
+        <Typography className="item-title" variant="h5" color="textSecondary" component="p">Amazon Lambda</Typography>
+      </CardContent>
+      </Card>
         </Grid>
-        <Grid item xs={12} sm={2}>
-        <img src ={AWS3} className="img" alt="No Preview"/>
+        <Grid item xs={12} sm={4}>
+        <Card>
+        <CardContent>
+        <img src ={AWS3} className="item" alt="No Preview"/>
+        <Typography className="item-title" variant="h5" color="textSecondary" component="p">Amazon RDS</Typography>
+      </CardContent>
+      </Card>
         </Grid>
-        <Grid item xs={12} sm={2}>
-        <img src ={AWS4} className="img" alt="No Preview"/>
+        <Grid item xs={12} sm={4}>
+        <Card>
+        <CardContent>
+        <img src ={AWS4} className="item" alt="No Preview"/>
+        <Typography className="item-title" variant="h5" color="textSecondary" component="p">AWS IoT Core</Typography>
+      </CardContent>
+      </Card>
         </Grid>
-        <Grid item xs={12} sm={2}>
-        <img src ={AWS5} className="img" alt="No Preview"/>
+        <Grid item xs={12} sm={4}>
+        <Card>
+        <CardContent>
+        <img src ={AWS5} className="item" alt="No Preview"/>
+        <Typography className="item-title" variant="h5" color="textSecondary" component="p">Amazon Cognito</Typography>
+      </CardContent>
+      </Card>
         </Grid>
-        <Grid item xs={12} sm={2}>
-        <img src ={AWS6} className="img" alt="No Preview"/>
+        <Grid item xs={12} sm={4}>
+        <Card>
+        <CardContent>
+        <img src ={AWS6} className="item" alt="No Preview"/>
+        <Typography className="item-title" variant="h5" color="textSecondary" component="p">Amazon Redshift</Typography>
+      </CardContent>
+      </Card>
         </Grid>
+        <Grid item xs={12} sm={4}>
+        <Card>
+        <CardContent>
+        <img src ={AWS7} className="item" alt="No Preview"/>
+        <Typography className="item-title" variant="h5" color="textSecondary" component="p">Elastic Load Balancing </Typography>
+      </CardContent>
+      </Card>
         </Grid>
-        <Grid container spacing={3} >
-        <Grid item xs={12} sm={2}>
-        <img src ={AWS7} className="img" alt="No Preview"/>
+        <Grid item xs={12} sm={4}>
+        <Card>
+        <CardContent>
+        <img src ={AWS8} className="item" alt="No Preview"/>
+        <Typography className="item-title" variant="h5" color="textSecondary" component="p">Elasticsearch Service</Typography>
+      </CardContent>
+      </Card>
         </Grid>
-        <Grid item xs={12} sm={2}>
-        <img src ={AWS8} className="img" alt="No Preview"/>
+        <Grid item xs={12} sm={4}>
+        <Card>
+        <CardContent>
+        <img src ={AWS9} className="item" alt="No Preview"/>
+        <Typography className="item-title" variant="h5" color="textSecondary" component="p">Amazon Simple Email Servie</Typography>
+      </CardContent>
+      </Card>
         </Grid>
-        <Grid item xs={12} sm={2}>
-        <img src ={AWS9} className="img" alt="No Preview"/>
+        <Grid item xs={12} sm={4}>
+        <Card>
+        <CardContent>
+        <img src ={AWS10} className="item" alt="No Preview"/>
+        <Typography className="item-title" variant="h5" color="textSecondary" component="p">Amazon Simple Queue Service</Typography>
+      </CardContent>
+      </Card>
         </Grid>
-        <Grid item xs={12} sm={2}>
-        <img src ={AWS10} className="img" alt="No Preview"/>
+        <Grid item xs={12} sm={4}>
+        <Card>
+        <CardContent>
+        <img src ={AWS11} className="item" alt="No Preview"/>
+        <Typography className="item-title" variant="h5" color="textSecondary" component="p">Amazon API Gateway</Typography>
+      </CardContent>
+      </Card>
         </Grid>
-        <Grid item xs={12} sm={2}>
-        <img src ={AWS11} className="img" alt="No Preview"/>
-        </Grid>
-        <Grid item xs={12} sm={2}>
-        <img src ={AWS12} className="img" alt="No Preview"/>
+        <Grid item xs={12} sm={4}>
+        <Card>
+        <CardContent>
+        <img src ={AWS12} className="item" alt="No Preview"/>
+        <Typography className="item-title" variant="h5" color="textSecondary" component="p">Amazon Kinesis Data Analytics</Typography>
+      </CardContent>
+      </Card>
         </Grid>
         </Grid>
         </React.Fragment>

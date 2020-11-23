@@ -6,9 +6,17 @@
   width: 100%;
   height: auto;
 }
+.item {
+  width: 100%;
+  height: auto;
+}
 .switch {
   text-align: center;
   margin: 90px;
+}
+.item-title {
+  text-align: center;
+  font-weight: bold;
 }
 .nav-links {
   display: flex;
@@ -79,7 +87,11 @@
   color: #61dafb;
 }
 
-
+.search-box {
+  position: relative;
+  top: 20px;
+  display: flex;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
